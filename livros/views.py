@@ -1,12 +1,8 @@
 from django.shortcuts import render
-<<<<<<< HEAD
-from .models import Livros 
-=======
 from django.contrib import messages
 from .models import Livros
 from .forms import LivrosForm
 from django.shortcuts import render, get_object_or_404, redirect
->>>>>>> 5e51ac3 (Master 2.3)
 
 # Create your views here.
 
